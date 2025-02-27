@@ -20,4 +20,6 @@ DiabetesPedigreeFunction: Diabetes pedigree function, a genetic score of diabete
 
 Age: Age in years.
 
-Outcome: Binary classification indicating the presence (1) or absence (0) of diabetes. Utilize this dataset to explore the relationships between various health indicators and the likelihood of diabetes. You can apply machine learning techniques to develop predictive models, feature selection strategies, and data visualization to uncover insights that may contribute to more accurate risk assessments. As you embark on your journey with this dataset, remember that your discoveries could have a profound impact on diabetes prevention and management. This dataset contributes to the ongoing efforts to combat diabetes through data-driven insights and innovations.
+Outcome: Binary classification indicating the presence (1) or absence (0) of diabetes. 
+
+This dataset was used to explore the relationships between various health indicators and the likelihood of diabetes. This dataset contributes to the ongoing efforts to combat diabetes through data-driven insights and innovations.
