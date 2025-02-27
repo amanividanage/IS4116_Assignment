@@ -1,25 +1,42 @@
-The dataset can be accessed via: https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes Description:
+Overview
 
-This dataset contains a diverse range of health-related attributes, meticulously collected to aid in the development of predictive models for identifying individuals at risk of diabetes. By sharing this dataset, we aim to foster collaboration and innovation within the data science community, leading to improved early diagnosis and personalized treatment strategies for diabetes. Columns:
+This project focuses on analyzing a diabetes dataset to understand the relationships between various health indicators and diabetes outcomes. The analysis involves data cleaning, exploratory data analysis (EDA), statistical analysis, and regression modeling to derive business insights and implications.
+The dataset can be accessed via: https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes 
 
-Id: Unique identifier for each data entry.
+This dataset contains a diverse range of health-related attributes, meticulously collected to aid in the development of predictive models for identifying individuals at risk of diabetes. 
+Data Selection
 
-Pregnancies: Number of times pregnant.
+The dataset contains various health-related features such as glucose levels, insulin, BMI, and skin thickness, along with an outcome variable indicating whether a person has diabetes (1) or not (0). 
 
-Glucose: Plasma glucose concentration over 2 hours in an oral glucose tolerance test.
+**Analytical Process
+**
+1. Data Preprocessing
 
-BloodPressure: Diastolic blood pressure (mm Hg).
+Handling Missing Values: Replaced zeros in key health-related columns (e.g., Glucose, Insulin, BMI) with NaN and then imputed missing values using the mean.
 
-SkinThickness: Triceps skinfold thickness (mm).
+![image](https://github.com/user-attachments/assets/f71409cd-f770-4a46-b59e-3db46441dfe4)
+![image](https://github.com/user-attachments/assets/49711c89-7342-4637-93fb-eebc210f9b32)
 
-Insulin: 2-Hour serum insulin (mu U/ml).
 
-BMI: Body mass index (weight in kg / height in m^2).
 
-DiabetesPedigreeFunction: Diabetes pedigree function, a genetic score of diabetes.
+2. Univariate Analysis
 
-Age: Age in years.
+Examined the distribution of individual features (Glucose, Insulin, BMI, etc.).
 
-Outcome: Binary classification indicating the presence (1) or absence (0) of diabetes. 
+Identified skewness and outliers that might affect predictive modeling.
+![image](https://github.com/user-attachments/assets/49e31efa-0630-4b9b-a62a-3c9868134335)
 
-This dataset was used to explore the relationships between various health indicators and the likelihood of diabetes. This dataset contributes to the ongoing efforts to combat diabetes through data-driven insights and innovations.
+
+3. Bivariate Analysis
+
+Conducted scatter plots (e.g., Glucose vs. Insulin, Glucose vs. SkinThickness) to visualize correlations.
+
+Used hue (Outcome variable) to distinguish diabetic vs. non-diabetic individuals.
+
+4. Regression Analysis
+
+Performed multiple linear regression to determine the strength of relationships between independent variables and the diabetes outcome.
+
+Evaluated feature importance in predicting diabetes risk.
+
+
