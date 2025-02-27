@@ -21,10 +21,15 @@ Handling Missing Values: Replaced zeros in key health-related columns (e.g., Glu
 
 2. Univariate Analysis
 
+Summary statistics
+![image](https://github.com/user-attachments/assets/1245b2a8-336e-48f8-9723-c1ea496a22c1)
+
+
 Examined the distribution of individual features (Glucose, Insulin, BMI, etc.).
 
 Identified skewness and outliers that might affect predictive modeling.
 ![image](https://github.com/user-attachments/assets/49e31efa-0630-4b9b-a62a-3c9868134335)
+![image](https://github.com/user-attachments/assets/9432dc63-a677-4143-a1a7-501c9e6c652d)
 
 
 3. Bivariate Analysis
@@ -33,10 +38,22 @@ Conducted scatter plots (e.g., Glucose vs. Insulin, Glucose vs. SkinThickness) t
 
 Used hue (Outcome variable) to distinguish diabetic vs. non-diabetic individuals.
 
+![image](https://github.com/user-attachments/assets/b6d46ab1-d8b1-4f75-9f87-170d24da5598)
+![image](https://github.com/user-attachments/assets/7974db30-5bc3-426a-bcd1-2d1649a0ac9c)
+
+
+
 4. Regression Analysis
 
 Performed multiple linear regression to determine the strength of relationships between independent variables and the diabetes outcome.
 
 Evaluated feature importance in predicting diabetes risk.
+
+![image](https://github.com/user-attachments/assets/72a830d8-eb06-47f6-b5ba-e16c71c180ad)
+![image](https://github.com/user-attachments/assets/e436b7d1-0eb3-4d63-a94e-f12afbfad1ba)
+![image](https://github.com/user-attachments/assets/02d964a0-77c2-474e-a384-4ceccbf6f314)
+
+
+
 
 
